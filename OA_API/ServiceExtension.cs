@@ -18,7 +18,6 @@ namespace OA_API
                 services.AddScoped(typeof(IRepository< >), typeof(Repository< >));
                 services.AddScoped<IProductService, ProductService>();
             #endregion
-
             return services;
         }
     }
